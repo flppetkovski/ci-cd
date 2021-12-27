@@ -3,6 +3,5 @@ on: [push]
 jobs:
   print-hello-world:
     runs-on: ubuntu-latest
-    uses:
       -run: echo "hello world"
       -run: echo "this is step number 2"
